@@ -56,7 +56,15 @@
   width: 400px;
   padding-top: 50px;
 }
+.feature-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
+
+
+}
 .feature-title {
   padding-top: 170px;
   color: #272727;
@@ -72,41 +80,40 @@
   font-weight: 400;
   line-height: 30px;
   padding-top: 24px;
-  align-items: center;
+  /* align-items: center; */
   width: 550px;
-  padding-left: 500px;
+  /* padding-left: 500px; */
   padding-bottom: 50px;
 }
 
-.feature-pic{
-align-items: center;
-
+.feature-pic {
+  align-items: center;
 }
 
 .feature-pic-container {
   display: flex;
   align-items: center;
-  padding-left: 100px;
-  
-
+  justify-content: center;
+  gap: 25px;
+  /* padding-left: 100px; */
 }
 
 .feature-pic-item {
- 
-
-padding-left: 50px;
+  /* padding-left: 50px; */
+  /* display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column; */
 }
 
 .feature-pic-img {
   /* height: 200px; */
 
-  width: 250px;
-  height: 350px;
+  width: 150px;
+  height: 250px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-  padding-left:  60px;
+  padding-left: 60px;
   padding-top: 110px;
   padding-right: 60px;
 
@@ -118,7 +125,7 @@ padding-left: 50px;
   /* height: 250px; */
 }
 
-.feature-pic-title{
+.feature-pic-title {
   text-align: center;
 }
 .deal {
@@ -153,9 +160,11 @@ padding-left: 50px;
   padding-top: 100px;
 }
 .feature-img {
-  padding-left: 240px;
-  padding-right: 240px;
-  padding-bottom: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 120px;
 }
 
 .fi1,
@@ -166,7 +175,7 @@ padding-left: 50px;
   height: 250px;
 }
 .get-offer {
-  background-image: url('./assets/Rectangle\ 9.png');
+  background-image: url("./assets/Rectangle\ 9.png");
   width: 1020px;
   height: 300px;
   display: flex;
@@ -203,7 +212,6 @@ padding-left: 50px;
 .email-box {
   display: flex;
   gap: 15px;
-
 }
 
 .email-input {
@@ -213,13 +221,9 @@ padding-left: 50px;
   font-size: 16px;
   border: none;
   border-radius: 5px 0 0 5px;
-
-
- 
 }
 btn-s {
   margin-left: 5px;
-  
 }
 
 .blog-section {
@@ -254,7 +258,7 @@ btn-s {
 .blog-card a {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
