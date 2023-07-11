@@ -142,6 +142,9 @@
 
   padding-top: 100px;
 }
+.off{
+  color:#E55473;
+}
 .deal-description {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
